@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+body {
+    background: url('https://wallpaperaccess.com/full/3390922.jpg') no-repeat center center fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #fff;
+  }
+
+.head, .links {
+    text-align: center;
+  }
+
+.profile-card {
+    width: 800px;
+    max-width: calc(100vw - 10px);
+    background-color: rgba(11, 49, 65, 0.568);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .3) 10px 10px 10px;
+    border: 2px solid #0499FC;
+  }   
+
+.head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #0499FC;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+  }
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(20%);
+  }
+  
+.profile-image {
+    margin-top: -100px;
+  }
+
+.name {
+    font-size: 35px;
+  }
+
+.profession {
+    font-size: 20px;
+  }
+  
+.content {
+    text-align: center;
+  }
+
+.about {
+    padding: 20px 20px;
+  }
+  
+.programmes {
+    padding: 5px 5px;
+  }
+
+section {
+    padding: 20px 20px;
+  }
+  
+li {
+    display: inline;
+  }
+
+a {
+    color: #fff;
+  }
+ i:hover {
+    background-color:red;
+  }
+  
